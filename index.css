@@ -1,1 +1,22 @@
+body, html {
+    cursor: url(1.png) 15 15,move;
+    height: 100%;
+    width: 100%;
+}
 
+a[href], button, input[type=checkbox], input[type=image], input[type=submit], label[for], select {
+    cursor: url(2.png) 15 15,move!important;
+}
+h1{
+    font-size: 36px;
+    padding: 100px;
+}
+a{
+    padding: 100px;
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    font-size: 28px;
+}
